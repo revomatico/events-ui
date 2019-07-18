@@ -1,7 +1,7 @@
 <template>
   <v-menu open-on-hover offset-y left>
     <v-list>
-      <layout>
+      <v-layout>
         <b>{{ profile.firstName }} {{ profile.lastName }}</b>
         <br>
         <b>
@@ -13,7 +13,7 @@
             <font color="warning">Not authenticated!</font>
           </i>
         </span>
-      </layout>
+      </v-layout>
       <v-list-tile v-for="item in filterMenu(items)" :key="item.title" @click="menuItemClick(item)">
         <span class="pa-2">
           <v-icon>{{ item.icon }}</v-icon>

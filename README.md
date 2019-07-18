@@ -1,3 +1,7 @@
+# Events App
+
+![EventsUiApp](events-ui-app.png)
+
 # Development
 
 ## Build
