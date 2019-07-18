@@ -47,3 +47,13 @@ npm-upgrade.cmd
 #to list why a dependency is added
 npm ls fsevents
 ```
+
+# Create a nuxt app from start
+As described at https://nuxtjs.org/guide/installation 
+
+```
+scoop install nodejs
+# eventually restart cmder
+npx create-nuxt-app <project-name>
+npm run dev
+```
