@@ -43,7 +43,9 @@ export default {
         search: '',
         headers: [
           { text: 'Name', value: '[0]' },
-          { text: 'Date', value: '[1]' }
+          { text: 'Date', value: '[1]' },
+          { text: 'Singers', value: '[2]' }
+          
         ],
         desserts: []
       }
