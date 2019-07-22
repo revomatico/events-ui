@@ -44,12 +44,6 @@ export default {
     methods:{
         submit(){
             console.log(this.concert, this.date, this.singer)
-        },
-        add(){
-            put('localhost:8080/add?name=',{concert})
-            .then(response=>{
-                console.log(response);
-            })
         }
     }
 }
