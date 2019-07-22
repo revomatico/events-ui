@@ -17,7 +17,7 @@
                       <v-text-field label="Concert" v-model="concert" prepend-icon="music_note"></v-text-field>
                       <v-text-field label="Date" v-model="date" prepend-icon="event"></v-text-field>
                       <v-text-field label="Singer" v-model="singer" prepend-icon="record_voice_over"></v-text-field>
-                      <v-btn class="success mx-0 mt-3" small dark >Add Event</v-btn>
+                      <v-btn class="success mx-0 mt-3" small dark @click="submit" >Add Event</v-btn>
                   </v-form>
               </v-card-text>
             </v-expansion-panel-content>
@@ -39,6 +39,17 @@ export default {
             concert: '',
             date: '',
             singer: '',
+        }
+    },
+    methods:{
+        submit(){
+            console.log(this.concert, this.date, this.singer)
+        },
+        add(){
+            put('localhost:8080/add?name=',{concert})
+            .then(response=>{
+                console.log(response);
+            })
         }
     }
 }
