@@ -27,7 +27,7 @@
           </template>
         </v-data-table>
         <v-carousel>
-          <v-carousel-item v-for="(item,i) in eventsTable.desserts" :key="i" :src="item[4]"></v-carousel-item>
+          <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
         </v-carousel>
       </v-card>
     </v-layout>
@@ -86,6 +86,20 @@ export default {
         ],
         desserts: [],
       },
+      items: [
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+        },
+      ],
       dates: [],
       menu: false,
     }
