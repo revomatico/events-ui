@@ -15,22 +15,14 @@
         <strong class="subheading">Get connected with us on social networks!</strong>
 
         <v-spacer></v-spacer>
- <v-btn>
           <a href="https://www.facebook.com">
-          <v-icon size="24px" color="blue">fab fa-facebook</v-icon></a>
-        </v-btn>
-        <v-btn>
+          <v-icon size="24px" style="margin-right:10px;">fab fa-facebook</v-icon></a>
           <a href="https://twitter.com" color="blue">
-          <v-icon size="24px">fab fa-twitter</v-icon></a>
-        </v-btn>
-      <v-btn>
+          <v-icon size="24px" style="margin-right:10px;">fab fa-twitter</v-icon></a>
           <a href="https://linkedin.com">
-          <v-icon size="24px" color="blue">fab fa-linkedin</v-icon></a>
-        </v-btn>
-        <v-btn>
+          <v-icon size="24px" style="margin-right:10px;">fab fa-linkedin</v-icon></a>
           <a href="https://www.instagram.com">
-          <v-icon size="24px" color="red darken-1">fab fa-instagram</v-icon></a>
-        </v-btn>
+          <v-icon size="24px"style="margin-right:10px;" >fab fa-instagram</v-icon></a>
       </v-card-title>
       <v-card-actions class="grey darken-3 justify-center">
      © 2019 revomatico. – All rights reserved.
