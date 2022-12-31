@@ -23,10 +23,10 @@
     "@nuxtjs/toast": "^3.0.2",
     "cross-env": "^5.2.0",
     "nodemon": "^1.18.7",
-    "nuxt": "^2.6.2",
+    "nuxt": "^3.0.0",
     "preconditions": "^2.2.3",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
+    "stylus-loader": "^7.1.0",
     "vuetify": "^1.5.13",
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
@@ -35,7 +35,7 @@
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "jest-serializer-vue": "^2.0.2",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^4.0.1"
   },
   "devDependencies": {}
 }
